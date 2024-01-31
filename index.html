@@ -1,78 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GPA Calculator</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container mt-5">
-        <h2 class="text-center mb-4">GPA Calculator</h2>
-        <form id="gpaForm">
-            <!-- Your subject inputs go here -->
-            <!-- Example: -->
-            <div class="form-group">
-                <label for="subject1">Robotic Application Development</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Programming Data Structures and Algorithms-1
+      <h2 class="text-center mb-4">GPA Calculator</h2>
+      <form id="gpaForm">
+        <!-- Your subject inputs go here -->
+        <!-- Example: -->
+        <div class="form-group">
+          <label for="subject1">Robotic Application Development</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject1"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject2"
+            >Programming Data Structures and Algorithms-1
           </label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Robotic Application Development</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Enterprise Application Development-2</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Advanced Database Management Systems </label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Digital Image Processing</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Statistics for Computing</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Mobile Application Development </label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Internet of Things</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">Machine Learning for Artificial Intelligence</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <div class="form-group">
-                <label for="subject1">Software Securit</label>
-                <input type="number" class="form-control" id="subject1" placeholder="Enter your grade" step="0.01" required />
-            </div>
-            <!-- Repeat for other subjects -->
+          <input
+            type="number"
+            class="form-control"
+            id="subject2"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject3">Robotic Application Development</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject3"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject4">Enterprise Application Development-2</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject4"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject5">Advanced Database Management Systems </label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject5"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject6">Digital Image Processing</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject6"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject7">Statistics for Computing</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject7"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject8">Mobile Application Development </label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject8"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject9">Internet of Things</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject9"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject10">
+            Machine Learning for Artificial Intelligence</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="subject10"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject11">Software Securit</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject11"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject12">IT Management Practice</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject12"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject13">Innovation and Entrepreneurship Project</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject13"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject14">Industrial Training</label>
+          <input
+            type="number"
+            class="form-control"
+            id="subject14"
+            placeholder="Enter your grade"
+            step="0.01"
+            required
+          />
+        </div>
+        <!-- Repeat for other subjects -->
 
-            <button type="button" class="btn btn-primary" onclick="calculateGPA()">
+        <button type="button" class="btn btn-primary" onclick="calculateGPA()">
           Calculate GPA
         </button>
-        </form>
+      </form>
 
-        <div id="result" class="mt-4"></div>
+      <div id="result" class="mt-4"></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="calculator.js"></script>
-</body>
-
+  </body>
 </html>
